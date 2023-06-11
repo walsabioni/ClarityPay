@@ -1,0 +1,151 @@
+body {
+    background-color: #ffffff;
+    color: #9b9595;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header h1 {
+    font-size: 24px;
+  }
+  
+  .header span {
+    color: #64A6BD;
+  }
+  
+  .user-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .user-box {
+    background-color: #0B1526;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .user-box h2 {
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+  
+  .shortcuts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .shortcuts h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .shortcut {
+    display: inline-block;
+    background-color: #64A6BD;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .recent-activities {
+    background-color: #0B1526;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .recent-activities h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .user-box {
+    position: relative;
+    background-color: #0B1526;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .user-box .corner-text-top-left {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #fff;
+  }
+  
+  .user-box .corner-text-top-right {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #fff;
+  }
+  
+  .user-box .corner-text-bottom-left {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #fff;
+  }
+  
+  .user-box .corner-text-bottom-right {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: #fff;
+  }
+  
+  .user-box .corner-text span {
+    font-size: 14px;
+  }
+  
+  .transactions {
+    background-color: #0B1526;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .transactions h3 {
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  .transaction-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .transaction-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .transaction-type {
+    color: #fff;
+  }
+  
+  .transaction-amount {
+    color: #fff;
+  }
+  
+  .transaction-date {
+    color: #fff;
+  }
+  
+  

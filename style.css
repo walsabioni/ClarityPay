@@ -1,0 +1,28 @@
+body {
+  background-color: #14213D;
+  color: #fff;
+}
+
+.logo {
+  font-size: 2rem;
+}
+
+.logo span {
+  color: #64A6BD;
+}
+
+.welcome {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+.btn-primary {
+  background-color: #fff;
+  color: #14213D;
+  border-color: #fff;
+  margin-top: 1rem;
+}
+
+.shortcut-buttons {
+  margin-top: 2rem;
+}
